@@ -1,0 +1,7 @@
+function normalizeName(input) {
+  if (!input) return "Anonymous";
+  return input.trim() || "Anonymous";
+}
+
+["", " ", null, " Ola "]
+  .forEach(v => console.log(normalizeName(v)));
