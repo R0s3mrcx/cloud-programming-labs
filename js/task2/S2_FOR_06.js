@@ -1,0 +1,11 @@
+function sumNested(matrix) {
+  let sum = 0;
+  for (const row of matrix) {
+    for (const n of row) {
+      sum += n;
+    }
+  }
+  return sum;
+}
+
+console.log(sumNested([[1,2],[3,4],[5]])); // 15
