@@ -12,7 +12,6 @@ js/
 ├─ task3b/ # Arrow functions
 └─ task3c/ # Pipelines
 ```
----
 
 ## How to run
 
